@@ -24,7 +24,7 @@ pipeline{
         stage("Push to DockerHub"){
             steps{
 
-                echo "This is pushing the image to dockerhub"
+                echo "This is pushing the image to the dockerhub"
 
                 withCredentials([usernamePassword(
                     credentialsId:"DockerhubCred",
