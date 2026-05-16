@@ -14,7 +14,7 @@ services:
       - notes-app-nw
 
   django_app:
-    image: "muhmdovais/notes-app"
+    image: "muhmdovais/notes-app:latest"
     container_name: "django_cont"
     ports:
       - "8000:8000"
